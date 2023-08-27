@@ -60,7 +60,7 @@ list-style: none;
 }
 
 .container{
-    max-width: 1000px;  /* container ko max-width yeh esi lya di taka sab ik line mai raha sections
+    max-width: 1180px;  /* container ko max-width yeh esi lya di taka sab ik line mai raha sections
     ab har swction mai ham yeh container ki class dta rahen ga.iska ik or tareeka bhi hota magar
     abhi ham yeh use karra   */
 margin-inline: auto;
@@ -91,7 +91,11 @@ color: var(--primary-text-color);
         transition: 0.2s ease-out;
         margin-top: -10px;
     }
-
+   
+        .secondary-button:hover{
+            color: var(--accent-color);
+            transition: 0.2s ease-out;
+        }
 
     .primary-button{
         background-color: var(--accent-color);
@@ -154,8 +158,8 @@ gap: 40px;
 
 header{
 
-    margin-top: 40px;
-border: 1px solid red;
+   padding-top: 40px;
+
 }
 
 .header-section{
@@ -192,22 +196,24 @@ padding-left: 2px;
 /* compamies section */
 .companies-section{
 
+    
 
-    width: 100%;
-
-
+    padding-block: 30px;/* Top / bottom  */
 
 }
 .companies-header{
     text-align: center;
-    margin-block: 30px;/* Top / bottom  */
+
     color: var(--primary-text-color);
 font-size: 0.81rem;
+
 }
 .logos{
+padding-top: 28px;
     justify-content: space-between;
 
     flex-wrap: wrap-reverse;
+
 
 
 }
@@ -217,4 +223,98 @@ font-size: 0.81rem;
 }
 .spacer{
     height:100vh;
+}
+
+
+/* Features section */
+.secondary-button-btn{
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 3px;
+    font-weight: 600;
+    color: var(--primary-text-color) !important;
+    padding: 8px 30px ;
+    transition: 0.2s ease-out;
+    margin-top: -10px;
+}
+.secondary-button-btn i{
+    padding-left: 3px;
+
+}
+.features-section{
+
+
+
+}
+/* .army{
+    text-align: center;
+}
+.classy{
+    text-align: center;
+} */
+.features-header{
+text-align: center;
+
+
+}
+.features-header h2{
+    font-weight: 500;
+    margin-top: 14px;
+}   
+.features-section a{
+margin-top: 14px;
+}
+.secondary-button i{
+    padding-left: 4px;
+    padding-bottom: 3px;
+
+font-size: medium;
+
+}
+
+
+
+/* .features-area{
+flex-wrap: wrap;
+    border: 1px solid red;
+    padding-top: 30px;
+    gap: 47px;
+}
+.feacures-card{
+border: 1px solid purple;
+
+}
+.feacures-card h3{
+    font-size: larger;
+    font-weight: 600;
+}
+.feacures-card img{
+    width: 40px;
+    height: 40px;
+} */
+.features-section{
+    background-image: url(./assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+background-size:auto;
+}
+.features-area{
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+text-align: center;
+
+}
+.feacures-card{
+    flex-direction: column;
+  gap: 10px;   /*    colmn mai gap mila hia p h or img mai */
+    align-items: center;
+
+   max-width: 30%;
+
+
+}
+.feacures-card img{
+    width: 50px;
+    height: 50px;
 }
