@@ -265,7 +265,7 @@ border: 1px solid purple;
 }
 
 .features-header{
-    margin-top: 30px;
+    padding-top: 30px;
 align-items: center;
 flex-direction: column;
 gap: 30px;
@@ -304,7 +304,7 @@ text-align: center;
 /* big feature section */
 
 .big-feature-section{
-border: 1px solid darkred;
+
     padding-top: 70px;
 }
 .big-feature-work{
@@ -403,4 +403,73 @@ padding-left: 10px;
     flex-direction: row-reverse;
 }
 
+
 /* examples-section */
+
+
+.examples-header{
+
+        padding-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+
+.examples-area{
+padding-top: 30px;
+justify-content: space-between;
+}
+.examples-card {
+   
+    width: 23%;
+    min-height:290px;
+
+    color: white;
+    position: relative;
+
+    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 37.jpeg);
+    background-size: cover;
+    
+}
+.examples-card:hover{
+    box-shadow: 0 0 10px #888;
+    transition: 0.3     s ease-out;
+}
+.examples-card h3{
+  color: white;
+    text-align: left;
+    letter-spacing: -.6px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+   
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+}
+
+.examples-card:nth-child(2){
+    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+}
+.examples-card:nth-child(3){
+    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 38.jpeg);
+    background-size: cover;
+}
+.examples-card:nth-child(4){
+    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 39.jpeg);
+    background-size: cover;
+}
+/* particpants */
+.participants{
+    background-color: #1d69a3;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+}
