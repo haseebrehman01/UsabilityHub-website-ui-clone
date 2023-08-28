@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap');
 
 /* Resets */
 *{
@@ -227,51 +227,10 @@ padding-top: 28px;
 
 
 /* Features section */
-.secondary-button-btn{
-    border: 1px solid var(--secondary-text-color);
-    border-radius: 3px;
-    font-weight: 600;
-    color: var(--primary-text-color) !important;
-    padding: 8px 30px ;
-    transition: 0.2s ease-out;
-    margin-top: -10px;
-}
-.secondary-button-btn i{
-    padding-left: 3px;
-
-}
-.features-section{
 
 
 
-}
-/* .army{
-    text-align: center;
-}
-.classy{
-    text-align: center;
-} */
-.features-header{
-text-align: center;
-
-
-}
-.features-header h2{
-    font-weight: 500;
-    margin-top: 14px;
-}   
-.features-section a{
-margin-top: 14px;
-}
-.secondary-button i{
-    padding-left: 4px;
-    padding-bottom: 3px;
-
-font-size: medium;
-
-}
-
-
+/* my position work */
 
 /* .features-area{
 flex-wrap: wrap;
@@ -291,30 +250,157 @@ border: 1px solid purple;
     width: 40px;
     height: 40px;
 } */
+.secondary-button-btn{
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 3px;
+    font-weight: 600;
+    color: var(--primary-text-color) !important;
+    padding: 8px 30px ;
+    transition: 0.2s ease-out;
+    margin-top: -10px;
+}
+.secondary-button-btn i{
+    padding-left: 3px;
+
+}
+
+.features-header{
+    margin-top: 30px;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
 .features-section{
     background-image: url(./assets/asset\ 34.svg);
     background-repeat: no-repeat;
     background-position: center;
-background-size:auto;
+background-size: contain;
+
+
 }
+
 .features-area{
     padding-top: 50px;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 text-align: center;
 
 }
-.feacures-card{
+.features-card{
     flex-direction: column;
-  gap: 10px;   /*    colmn mai gap mila hia p h or img mai */
+  gap: 20px;   /*    colmn mai gap mila hia p h or img mai */
     align-items: center;
 
    max-width: 30%;
 
 
 }
-.feacures-card img{
-    width: 50px;
-    height: 50px;
+.features-card img{
+    width: 15%;
 }
+
+/* big feature section */
+
+.big-feature-section{
+border: 1px solid darkred;
+    padding-top: 70px;
+}
+.big-feature-work{
+gap: 60px;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-description{
+ 
+    flex-direction: column;
+
+
+
+
+}
+.Design-professionals{
+    font-weight: 500;
+}
+.efforts{
+    color: #183b56;
+
+ 
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  
+}
+
+.h3-h2{
+line-height: 43px;
+}
+.feature-para{
+
+padding-top: 20px;
+color: #577592;
+
+
+font-size: 20px;
+font-weight: 400;
+
+
+
+}
+.chartmogul{
+    max-height: 30px;
+    margin-bottom: 30px;
+    
+        max-width: 100%;
+        display: inline-block;
+    
+}
+
+.feature-more-work{
+    margin-top: 40px;
+}
+
+.desc-2{
+
+max-width: 410px;
+    color: #183b56;
+  
+    background-image: url(assets/asset\ 35.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+  
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+
+
+
+.feature-second-img{
+    margin-top: 30px;
+}
+.feature-last-img{
+    max-height: 48px
+ 
+}
+.name-position{
+padding-left: 10px;
+}
+.feature-last-h4{
+    color: #183b56;
+
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    display: block;
+}
+/*  big feature section 2  */
+.big-feature-work-2{
+    flex-direction: row-reverse;
+}
+
+/* examples-section */
