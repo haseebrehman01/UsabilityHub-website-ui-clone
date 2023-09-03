@@ -72,7 +72,7 @@ list-style: none;
     abhi ham yeh use karra   */
 margin-inline: auto;
 /* margin: 0 auto; */
-border: 1px solid purple;
+
 overflow: hidden;
 
 /* padding-left: 20px; */
@@ -94,13 +94,13 @@ color: var(--primary-text-color);
 
 
 .secondary-button-btn{
-    border: 1px #b9cde4  solid ;
-    border-radius: 6px;
+
+
     font-weight: 600;
     color: var(--primary-text-color) !important;
-
+/* padding: 30px 24px; */
     transition: 0.2s ease-out;
-   
+
     font-size: 16px;
 
 } 
@@ -118,10 +118,10 @@ color: var(--primary-text-color);
 
     .primary-button{
         font-size: 16px;
-        background-color: var(--accent-color);
-    border-radius: 6px;
+        /* background-color: var(--accent-color); */
+    /* border-radius: 6px; */
     font-weight:600;
-        color: white !important;
+        color: black !important;
 
         box-shadow: 0 0 2px var(--secondory-text-color);
         transition: 0.2s ease ease-out;
@@ -146,12 +146,24 @@ color: var(--primary-text-color);
 
 
 
+.clone{
+    flex-direction: column;
+background-color: white;
+max-width: 110px;
+margin: 0 auto;
+color: black;
 
+
+
+}
+.clone a {
+text-decoration: underline;
+}
 
 /* banner */
 .top-banner{
     background-color: #4dadf7;
-   border: rgb(0, 0, 0) 2px solid;
+  
     background-image: url("https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b7e4d7973addf81ed1f4010_pattern.png");
 
 background-size: 300px;
@@ -177,19 +189,18 @@ color: white;
 justify-content: space-between;
 margin-top: 20px;
 
- border: 1px solid red;
 
 
  }
  .company-logo{
 width: 200px;
-border: 1px solid pink;
+
     }
     
     .nav-links ul{
     justify-content: end;
     gap: 40px;
-    border: 1px solid yellow;
+
 
     }
 
@@ -197,7 +208,7 @@ border: 1px solid pink;
 
     .nav-links{
     flex-basis: 730px;
-border: 1px solid purple;
+
 
 
     } 
@@ -361,11 +372,11 @@ text-align: center;
 
     padding-top: 70px;
     margin-bottom: 2px;
-    border: 1px solid green;
+
 }
 .big-feature-work{
 gap: 60px;
-border: 1px solid rgb(0, 0, 0);
+
 }
 .feature-img img{
     width: 100%;
@@ -373,7 +384,7 @@ border: 1px solid rgb(0, 0, 0);
 .feature-description{
  
     flex-direction: column;
-    border: 1px solid rgb(115, 0, 255);
+
  position: relative;
 
 
@@ -441,7 +452,7 @@ font-weight: 400;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.5;
-       border: 1px solid red;
+
     }
 
  
@@ -758,7 +769,7 @@ footer{
     padding: 70px;
 margin-top: 70px;
     background-color:#ebf2fa;
-    border: rgb(0, 0, 0) 2px solid;
+
 
 }
 .footer-container{
