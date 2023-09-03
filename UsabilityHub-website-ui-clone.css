@@ -20,7 +20,7 @@ box-sizing: border-box;
 body{
     font-family: 'Poppins',sans-serif;
     color: var(--primary-text-color);
-    border: 1px solid pink;
+
 
 }
 h1{
@@ -94,16 +94,21 @@ color: var(--primary-text-color);
 
 
 .secondary-button-btn{
-
-
+border-radius: 6PX;
+border: 0.5px solid var(--secondary-text-color);
     font-weight: 600;
     color: var(--primary-text-color) !important;
-/* padding: 30px 24px; */
+padding: 12px 24px;
     transition: 0.2s ease-out;
 
     font-size: 16px;
 
 } 
+.secondary-button-btn:hover{
+    border-color: var(--accent-color);
+    transition: 0.2s ease-out;
+    color: var(--accent-color) !important;
+}  
 
 .secondary-button-btn i{
     padding-left: 3px;
@@ -111,18 +116,15 @@ color: var(--primary-text-color);
 }
 
 
-        .secondary-button-btn:hover{
-            color: var(--accent-color);
-            transition: 0.2s ease-out;
-        }  
+      
 
     .primary-button{
         font-size: 16px;
-        /* background-color: var(--accent-color); */
-    /* border-radius: 6px; */
+        background-color: var(--accent-color);  
+     border-radius: 6px; 
     font-weight:600;
-        color: black !important;
-
+        color: white !important;
+ padding: 12px 24px;
         box-shadow: 0 0 2px var(--secondory-text-color);
         transition: 0.2s ease ease-out;
 
@@ -146,19 +148,6 @@ color: var(--primary-text-color);
 
 
 
-.clone{
-    flex-direction: column;
-background-color: white;
-max-width: 110px;
-margin: 0 auto;
-color: black;
-
-
-
-}
-.clone a {
-text-decoration: underline;
-}
 
 /* banner */
 .top-banner{
@@ -807,7 +796,7 @@ color: var(--secondary-text-color);
 
 /* subfooter */
 .sub-footer{
-    border: rgb(0, 0, 0) 2px solid;
+  
         background-color: #b9cde4;
 
 
