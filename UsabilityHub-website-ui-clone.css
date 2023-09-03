@@ -236,14 +236,38 @@ margin-left: 3px;
 
 }
 .btn{
- margin-top: 60px;
+ margin-top: 30px;
+ text-align: center;
+
+ border-radius: 4px;
+ font-size: 16px;
+ font-weight: 500;
 
 }
 .header-left p{
 margin-top: 10px;
 padding-left: 2px;
-}
 
+}
+.header-a-div{
+    max-width: 250px;
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+    position: static;
+
+}
+.small-para-header{
+ 
+    color: #577592;
+    text-align: center;
+    align-items: stretch;
+    padding: 10px 0;
+    font-size: 12px;
+
+ 
+
+}
 
 /* compamies section */
 .companies-section{
@@ -355,7 +379,7 @@ text-align: center;
 
 
 
-/* big feature section */
+/* big feature section 1 */
 
 .big-feature-section{
 
@@ -437,7 +461,7 @@ font-weight: 400;
     margin-left: -30px;
     padding-top: 15px;
     padding-left: 30px;
-
+font-family: 'Roboto Mono', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.5;
@@ -499,11 +523,12 @@ padding-left: 10px;
 .examples-area{
 padding-top: 30px;
 justify-content: space-between;
+
 }
 .examples-card {
    
     width: 23%;
-    min-height:290px;
+    min-height:330px;
 
     color: white;
     position: relative;
@@ -714,8 +739,8 @@ font-weight: 500;
     align-items: center;
 padding-top: 8%;
 gap: 50px;
-
 margin-top: 5px;
+
 
 
 }
@@ -727,23 +752,36 @@ color: #183b56;
 }
 .cta-para-button{
     text-align: center;
+    max-width: 250px;
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+
+
+    margin-top: -12px;
 }
 .get{
-    margin-bottom: 6px;
-    padding: 18px;
-    height: 55px;
-    width: 150px;
-    font-weight: 100;
+
+    text-align: center;
+   
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .cta-para{
 
-    width: 37%;
+    max-width: 500px;
     text-align: center;
+
+
+
 }
 .cta-small-para{
-
-    font-size: x-small;
     color: #577592;
+    text-align: center;
+    
+    padding: 10px 0;
+    font-size: 10px;
 }
 
 
