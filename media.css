@@ -1,0 +1,208 @@
+@media screen and (max-width:1060px){
+  .tester{
+    display: none;
+  }
+}
+
+@media screen and (max-width:991px){
+    .examples-section   h3{
+font-size: 1.4rem;
+    }
+
+.tester{
+
+    display: none !important;
+}
+.tester div{
+    display: none !important;
+}
+.nav-toggle {
+    display: block;
+}
+
+.nav-links{
+    /* display: none; */
+    position: absolute;
+background-color: white;
+left: -100%;
+top: 100%;
+width: 100%;
+padding-block: 20px;
+transition: 0.2s ease-in-out;
+}
+.nav-links.active{
+    left: 0px;
+}
+.nav-links ul{
+    gap: 30px;
+}
+.main-nav{
+    overflow: initial;
+}
+.nav-links ul{
+    flex-direction: column;
+}
+.examples-card{
+    width: calc(50% - 10px);
+
+
+
+}
+
+
+.examples-area {
+    gap :20px/* yeh islya huia qka hamna cards kop 50% dya hua tabhi 20px gap ki jaga nahi bach rahi issi lya hama 50% mai sa 10px minus karna honga taka 2 box mai sa 10 10 katjaye toh woh barabar mai ajayenga*/
+}
+.cta-section-work {
+    padding-block: 80px;
+
+}
+footer{
+
+    margin-top: 20px;
+
+}
+.features-card img {
+    width: 40px;
+
+}
+.big-feature-section-2{
+    padding-top: 0px;
+
+}
+.big-feature-section-3 {
+    padding-top: 0px;
+    
+}
+.features-section{
+    background-image: none;
+}
+.footer-container{
+gap: 28px;
+}
+}
+@media screen and (max-width:767px){
+    .primary-button{
+width: 100%;
+
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+     width: 100%;
+        text-align: center;
+    }
+    .header-a-div{
+margin: 0 auto;
+width: 100%;
+    }
+    .small-para-header{
+        text-align: center !important;
+        margin: 0 auto;
+    }
+    .features-card {
+        width: calc(50% - 10px);
+
+    }
+ .big-feature-work{
+    flex-direction: column;
+
+ }
+
+ .big-feature-work, #second-big-feature {
+    flex-direction: column;
+
+
+ }
+
+
+ .feature-description{
+    padding-left: 10px;
+ }
+ .feature-img-1 {
+
+
+ }
+ .feature-description{
+
+    padding-bottom: 40px;
+padding-left: 20px;
+ }
+ .feature-description-2{
+    padding-bottom: 40px;
+padding-left: 20px;
+ }
+ .footer-container{
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+ }
+ .footer-links{
+    align-items: center;
+    gap:10px;
+ }
+ .sub-footer-container{
+    flex-wrap: wrap;    
+
+ }
+ .sub-footer-links{
+flex-wrap: wrap;
+ }
+ .sub-footer-img{
+flex-wrap: wrap;
+ }
+ .sub-footer-links{
+    justify-content: center;
+}
+.cta-para-button{
+    min-width: 100%;
+}
+}
+
+@media screen and (max-width:479px) {
+:root{
+    --padding-inline-section: 10px;
+
+}
+.examples-card  {
+    height: 250px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+
+}
+
+
+
+p {
+    font-size: 1rem;
+}
+.design {
+    font-size: 2rem;
+
+
+}
+.features-card{
+    width: 100%;
+}
+.footer-container {
+    align-items: center;
+}
+.footer-links{
+    align-items: center;
+}
+.sub-footer-links{
+    justify-content: center;
+}
+#move{
+    padding-left: 20px;
+ 
+ }
+}

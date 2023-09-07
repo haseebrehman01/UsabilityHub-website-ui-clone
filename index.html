@@ -12,7 +12,7 @@
 
 <body>
   <!--Setting the width in the container's class will centralize all our work, and it will operate within the defined value of the width. -->
-  
+
 
   <!-- top banner -->
 
@@ -29,10 +29,17 @@
 
   <nav>
     <div class="container  main-nav  flex">
-      <a href="#">
+      <div class="company-logo-work flex">
+       <a href="#">
         <img src="assets/asset 1.png" alt="Campany-logo" class="company-logo ">
-      </a>
-      <div class="nav-links ">
+      </a> 
+      <a href="#" class="tester flex ">
+        <div class="become">Become a tester</div> 
+       </a>
+      </div>
+ 
+      
+      <div class="nav-links" id="nav-links-toggle">
         <ul class=" flex">
           <li><a href="#" class="hover-links">Product</a></li>
           <li><a href="#" class="hover-links">Customers</a></li>
@@ -42,7 +49,9 @@
           <li><a href="#" class="hover-links primary-button">Try for free</a></li>
         </ul>
       </div>
-
+<a href="#" class="nav-toggle hover-links" id="menu-toggle">
+  <i class="fa-solid fa-bars"></i>
+</a>
     </div>
   </nav>
 
@@ -54,9 +63,9 @@
         <h1 class="design">Design confidently</h1>
         <p>UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by
           validating them with real users.</p>
-        <div class="header-a-div">
+        <div class="header-a-div ">
           <a href="#" class="primary-button btn   ">Try for free</a>
-          <div class="small-para-header">No credit card required</div>
+          <div class="small-para-header">No credit card required</div>  
         </div>
       </div>
       <div class="header-right">
@@ -67,10 +76,11 @@
 
 
   <!-- Companies Section -->
-   <section class=" container companies-section">  <!-- for position -->
-    <div class="small-bold-text companies-header">      <!-- first class for positon and second for design-->
-The world's best companies rely on UsabilityHub to make
-      better design decisions
+  <section class=" container companies-section">
+    <!-- for position -->
+    <div class="small-bold-text companies-header">
+      <!-- first class for positon and second for design-->
+      The world's best companies rely on UsabilityHub to make better design decisions
     </div>
     <div class="logos flex">
       <!-- For position and flex -->
@@ -81,9 +91,7 @@ The world's best companies rely on UsabilityHub to make
       <img class="logo" src="./assets/asset 7.png" alt="">
       <img class="logo" src="./assets/asset 8.svg" alt="">
       <img class="logo" src="./assets/asset 9.png" alt="">
-
     </div>
-
   </section>
 
 
@@ -99,38 +107,38 @@ The world's best companies rely on UsabilityHub to make
       <div class="features-area flex">
         <div class="features-card flex">
           <img src="assets/asset 11.svg" alt="">
-          <h3>Card Sorting</h3>
+          <h4>Card Sorting</h4>
           <p>Discover how people group and label information.
           </p>
           <a class="secondary-button-btn">Learn more<i class="fa-solid fa-right-long"></i></a>
         </div>
         <div class="features-card flex">
           <img src="assets/asset 13.svg" alt="">
-          <h3>Card Sorting</h3>
+          <h4>Card Sorting</h4>
           <p>Discover how people navigate your Figma prototypes.</p>
           <a class="secondary-button-btn">Learn more<i class="fa-solid fa-right-long"></i></a>
         </div>
         <div class="features-card flex ">
           <img src="assets/asset 14.svg" alt="">
-          <h3>Card Sorting</h3>
+          <h4>Card Sorting</h4>
           <p>Test interaction with first click and navigation tests.</p>
           <a class="secondary-button-btn">Learn more<i class="fa-solid fa-right-long"></i></a>
         </div>
         <div class="features-card flex">
           <img src="assets/asset 15.svg" alt="">
-          <h3>Card Sorting</h3>
+          <h4>Card Sorting</h4>
           <p>Get feedback on images, videos or audio files.</p>
           <a class="secondary-button-btn">Learn more<i class="fa-solid fa-right-long"></i></a>
         </div>
         <div class="features-card flex">
           <img src="assets/asset 16.svg" alt="">
-          <h3>Card Sorting</h3>
+          <h4>Card Sorting</h4>
           <p>Find out which designs users prefer and why.</p>
           <a class="secondary-button-btn">Learn more<i class="fa-solid fa-right-long"></i></a>
         </div>
         <div class="features-card flex">
           <img src="assets/asset 17.svg" alt="">
-          <h3>Card Sorting</h3>
+          <h4>Card Sorting</h4>
           <p>Test comprehensibility by measuring first impressions.</p>
           <a class="secondary-button-btn">Learn more<i class="fa-solid fa-right-long"></i></a>
         </div>
@@ -142,32 +150,26 @@ The world's best companies rely on UsabilityHub to make
   <!-- big feature section 1  -->
   <section class="big-feature-section">
     <div class="container  big-feature-work flex">
-      <div class="feature-img">
+      <div class="feature-img-1">
         <img src="assets/asset 18.png" alt="">
       </div>
       <div class="feature-description flex">
-        <div class="position">
-          <div class="h3-h2">
-            <h3 class="efforts">
-              Effortless validation for</h3>
-            <h2 class="Design-professionals">Design professionals</h2>
+          <div class="big-feature-h3-h2 ">
+            <div>Effortless validation for</div>
+            <h3>Design professionals</h3>
           </div>
           <div class="feature-para">
-            <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive
-              and delightful experiences for your users.</p>
+            Test interfaces, interaction flows, iconography and more, to help you create intuitive
+              and delightful experiences for your users.
           </div>
 
 
-
-          <div class="feature-more-work">
+          <div class="feature-more-work ">
             <img class="chartmogul" src="assets/asset 19.png" alt="">
-
-
-            <div class="desc-2 flex">
-              <p>The navigation test is god's gift to UI designers, it probably has the best power-to-simplicity ratio
-                of
-                any software, ever.</p>
-
+            <div class="desc-2 ">
+            
+              The navigation test is god's gift to UI designers, it probably has the best power-to-simplicity ratio
+                of any software, ever.
             </div>
             <div class="feature-second-img flex">
               <img class="feature-last-img" src="assets/asset 20.png" alt="">
@@ -177,39 +179,30 @@ The world's best companies rely on UsabilityHub to make
               </div>
             </div>
           </div>
-
-        </div>
+      
       </div>
     </div>
   </section>
-
-
-  <!-- big feature section 2-->
+<!-- 2 -->
   <section class="big-feature-section">
-    <div class="container  big-feature-work-2 flex">
-      <div class="feature-img">
+    <div class="container  big-feature-work flex" id="second-big-feature">
+      <div class="feature-img-1">
         <img src="assets/asset 21.png" alt="">
       </div>
-      <div class="feature-description ">
-        <div class="position">
-          <div class="h3-h2">
-
-            <h3 class="efforts">
-              Optimisation for</h3>
-            <h2 class="Design-professionals">Marketers</h2>
+      <div class="feature-description flex" id="move">
+          <div class="big-feature-h3-h2 ">
+            <div>Optimisation for</div>
+            <h3>Marketers</h3>
           </div>
-          <p class="feature-para">Fine-tune landing pages, messaging, and creative, helping you optimise conversion
-            rates
-            on marketing campaigns and product launches.</p>
+          <div class="feature-para" >
+            Fine-tune landing pages, messaging, and creative, helping you optimise conversion rates on marketing campaigns and product launches.
+          </div>
 
 
-          <div class="feature-more-work">
+          <div class="feature-more-work ">
             <img class="chartmogul" src="assets/asset 22.png" alt="">
-
-
-            <div class="desc-2 flex">
-              <p>We use UsabilityHub tests to help us make decisions for various projects. From web and mobile design to
-                marketing activities.</p>
+            <div class="desc-2 ">
+              We use UsabilityHub tests to help us make decisions for various projects. From web and mobile design to marketing activities.
             </div>
             <div class="feature-second-img flex">
               <img class="feature-last-img" src="assets/asset 23.png" alt="">
@@ -219,148 +212,45 @@ The world's best companies rely on UsabilityHub to make
               </div>
             </div>
           </div>
-        </div>
+      
       </div>
     </div>
   </section>
-
-
-  <!-- big feature section 3-->
+  <!-- 3 -->
   <section class="big-feature-section">
-    <div class="container flex big-feature-work flex">
-      <div class="feature-img">
+    <div class="container  big-feature-work flex">
+      <div class="feature-img-1">
         <img src="assets/asset 24.png" alt="">
       </div>
       <div class="feature-description flex">
-        <div class="position">
-          <div class="h3-h2">
-            <h3 class="efforts">
-              Easier decision making for</h3>
-            <h2 class="Design-professionals">Product managers</h2>
+          <div class="big-feature-h3-h2 ">
+            <div>Easier decision making for</div>
+            <h3>Product managers</h3>
           </div>
-          <p class="feature-para">We use UsabilityHub tests to help us make decisions for various projects. From web and
-            mobile design to marketing activities</p>
+          <div class="feature-para">
+            Ensure you’re delivering the right features to the right customers by validating product concepts with your target audience.
+          </div>
 
 
-          <div class="feature-more-work">
+          <div class="feature-more-work ">
             <img class="chartmogul" src="assets/asset 25.png" alt="">
-
-
-            <div class="desc-2 flex">
-              <p class="desc-2-para">Adopting UsabilityHub got us into the habit of asking our users questions before
-                locking in decisions.</p>
+            <div class="desc-2 ">
+              Adopting UsabilityHub got us into the habit of asking our users questions before locking in decisions.
             </div>
             <div class="feature-second-img flex">
               <img class="feature-last-img" src="assets/asset 26.png" alt="">
               <div class="name-position">
-                <h4 class="feature-last-h4">Ron Diorio</h4>
+                <h3 class="feature-last-h4">Ron Diorio</h3>
                 <p>VP Innovation & New Product </p>
               </div>
             </div>
           </div>
-        </div>
+      
       </div>
     </div>
   </section>
 
-
-
-
-
-  <!-- examples-section -->
-
-  <section class="examples-section">
-
-    <div class="container">
-      <div class="examples-header flex">
-        <h2>One platform, endless possibilities</h2>
-        <a class="secondary-button-btn " href="#">See more examples<i class="fa-solid fa-right-long"></i></a>
-      </div>
-
-
-
-      <div class="examples-area flex">
-        <a class="examples-card" href="#">
-          <h3>Can users complete a task in my software interface?</h3>
-        </a>
-        <a class="examples-card" href="#">
-          <h3>Can users find important pages on my website?</h3>
-        </a>
-        <a class="examples-card" href="#">
-          <h3>Is my website’s intended audience clear?</h3>
-        </a>
-        <a class="examples-card" href="#">
-          <h3>Do visitors understand what a page is about?</h3>
-        </a>
-
-      </div>
-
-
-
-    </div>
-    </div>
-  </section>
-
-
-  <!--  -->
-
-
-
-
-
-  <!-- <section class="participants-section">
-    <div class="container  participants-work flex"> -->
-
-  <!-- <div class="featuresummary-column ">
-        <div class="panelad-image">
-          <div class="panelad-image-price">
-            <div class="panel-price">Starting from</div>
-            <div class="div-block-3">
-              <div class="dollar">USD&nbsp;$</div>
-              <div class="price">1</div>
-            </div>
-            <div class="panel-price">per response</div>
-          </div>
-        </div>
-      </div> -->
-
-
-
-  <!-- <div class="participants-description ">
-        <div class="h3-h2">
-
-          <h2>No participants?</h2>
-          <h2>No problem.</h2>
-        </div>
-        <p class="participants-para">Our integrated panel allows you to quickly and affordably recruit research
-          participants that precisely match your target audience..</p>
-
-        <div class="panel">
-          <h4>Our panel includes:</h4>
-          <div class="ul flex">
-            <ul class="flex more">
-              <li>530k+ panel participants</li>
-              <li>35+ demographic options</li>
-              <li>Free demographic targeting</li>
-            </ul>
-            <ul class="flex more">
-              <li>530k+ panel participants</li>
-              <li>35+ demographic options</li>
-              <li>Response quality guarantee</li>
-            </ul>
-          </div>
-        </div>
-        <div class="participants-buttons flex">
-          <a href="#" class="hover-links primary-button">Try the panel calculator</a>
-          <div class="or flex">or</div>
-          <a href="#" class="hover-links primary-button">Learn more</a>
-
-        </div>
-      </div>
-
-    </div>
-    
-  </section> -->
+ 
   <!-- cta-section -->
 
   <section class="cta-section">
@@ -394,56 +284,57 @@ The world's best companies rely on UsabilityHub to make
         <a href="">Sign up</a>
         <a href="">Book a demo</a>
       </div>
-
-
       <div class="footer-links flex">
-        <h4>Product</h4>
-        <a href="">Overview</a>
-        <a href="">Pricing</a>
-        <a href="">Research panel</a>
-        <a href="">Customers</a>
-        <a href="">Status page</a>
+        <h4>  Methodologies</h4>
+        <a href="">Card sorting</a>
+        <a href="">Prototype testing</a>
+        <a href="">First click tests</a>
+        <a href="">Preference tests</a>
+        <a href="">Five second tests</a>
         <a href="">Sign up</a>
-        <a href="">Book a demo</a>
+        <a href="">Design surveys</a>
+      </div>
+      <div class="footer-links flex">
+        <h4>  Resources</h4>
+        <a href="">Blog</a>
+        <a href="">Testing guides</a>
+        <a href="">Research panel calculator</a>
+        <a href="">Help center</a>
+        <a href="">Status page</a>
+        <a href="">Contact</a>
+        <a href="">Careers</a>
       </div>
 
 
-      <div class="footer-links flex">
-        <h4>Product</h4>
-        <a href="">Overview</a>
-        <a href="">Pricing</a>
-        <a href="">Research panel</a>
-        <a href="">Customers</a>
-        <a href="">Status page</a>
-        <a href="">Sign up</a>
-        <a href="">Book a demo</a>
-      </div>
+
     </div>
+  
+    
+    
+    
+  
+   
 
   </footer>
+
+
+
   <!-- subfooter -->
+
   <div class="sub-footer">
     <div class="container flex sub-footer-container">
       <div class="sub-footer-links flex">
         <a href="">Privacy policy</a>
-
         <a href="">Terms & conditions</a>
         <a href="">Security information</a>
-
-
       </div>
-
       <div class="sub-footer-img flex">
-
         <i class="fa-brands fa-youtube"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
       </div>
-
-
     </div>
-
   </div>
 
 
@@ -451,7 +342,17 @@ The world's best companies rely on UsabilityHub to make
 
 
 
+  
+  
   <script src="https://kit.fontawesome.com/d368ad9ef6.js" crossorigin="anonymous"></script>
+  <script>
+    const togglebutton = document.getElementById('menu-toggle');
+    const navlinks = document.getElementById('nav-links-toggle');
+    togglebutton.addEventListener('click',()=>{
+      navlinks.classList.toggle('active');
+    })
+  </script>
+
 </body>
 
 </html>
